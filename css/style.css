@@ -1,0 +1,86 @@
+body
+{
+  overflow-x: hidden
+  overflow-y: scroll;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+#backContainer
+{
+  background-color: #eee;
+  height: 100vh;
+}
+#particle-js{
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#portfolioContainer
+{
+  padding: 10px;
+  background-color: #fff;
+}
+.section
+{
+  height: 100vh;
+  color: white;
+}
+.card-header,.header-color
+{
+  background:linear-gradient(to right,rgb(240, 98, 146,.9),rgb(171, 71, 188,.7));
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  z-index: 1;
+}
+.videoSi
+{
+  height: 450px;
+}
+.video_text
+{
+    background:linear-gradient(to right,rgb(240, 98, 146,.9),rgb(171, 71, 188,.7));
+    color: white;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: .9rem;
+    z-index: 2;
+}
+.video_text:hover
+{
+    background:linear-gradient(to right,rgb(240, 98, 146),rgb(171, 71, 188,.9));
+    text-shadow: 5px 5px 10px #161616;
+}
+@media (max-width: 990px)
+ {
+   .video_text
+   {
+       margin-top: 30px;
+       padding: 40px;
+       font-size: .7rem;
+       margin-left: 10px;
+   }
+}
+@media (max-width: 650px)
+ {
+   .videoSi
+   {
+     height: 80vw;
+   }
+   .video_text
+   {
+       margin-top: 20px;
+       padding: px;
+       font-size: .6rem;
+       margin-left: 1px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       text-align: center;
+   }
+   .card-header
+   {
+     font-size: 1rem;
+   }
+}

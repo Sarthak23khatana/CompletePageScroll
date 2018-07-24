@@ -1,0 +1,41 @@
+{
+  "particles":
+            {
+             "number":
+                       {
+                       "value":30
+                     },
+              "size":
+                      {
+                        "value":10,
+                        "random":true
+                      },
+              "color":
+                      {
+                        "value":["#b2ebf2", "#aed581", "#303f9f"]
+                      },
+              "shape":
+                      {
+                        "type":"circle",
+                        "image": {
+                        "src": "http://mywebsite.com/assets/img/yop.png",
+                        "width": 100,
+                        "height": 100
+                      }
+                      },
+              "opacity":
+                        {
+                          "value": 0.5
+                        },
+              "move":
+                      {
+                        "direction":"top",
+                        "attract":
+                        {
+                          "rotateX":3000
+                        }
+                      }
+
+            }
+
+}
